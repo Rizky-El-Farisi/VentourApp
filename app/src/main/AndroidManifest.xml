@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ventourandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_ventour"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_ventour"
+        android:supportsRtl="true"
+        android:theme="@style/splash_screentheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDJvYtXibXoYBW56PWTiX7u9MD9Nl46vy4" />
+
+        <activity
+            android:name=".adapter.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/Toolbar"  />
+        <activity
+            android:name=".artikel.ArtikelDetail"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".controller.DetailOrder"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".artikel.DetailLayanan"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".controller.UploadBukti"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".controller.Login"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".Notification"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".MyOrder"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".artikel.Kontak"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".MyProfile"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".artikel.Artikel"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".API.Kiblat"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".API.Doa"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".listpaket.SemuaMenu"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".listpaket.ListTour"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".listpaket.ListHaji"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".listpaket.ListUmroh"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".listpaket.ListSemuaPaket"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".API.AlquranActivity"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".API.JadwalSholat"
+            android:exported="false"
+            android:theme="@style/Toolbar" />
+        <activity
+            android:name=".gallery.GalleryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.VentourAndroid" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

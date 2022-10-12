@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Nama Depan"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/nama_depan"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="Masukan Nama Depan"
+        android:textColor="#80000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Nama Tengah"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/nama_tengah"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="Masukan Nama Tengah"
+        android:textColor="#80000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Nama Belakang"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/nama_belakang"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:text="Masukan Nama Belakang"
+        android:textColor="#80000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Nomor Telepon"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/nomor_telepon"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:text="Masukan Nomor Telepon"
+        android:textColor="#80000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Nomor KTP"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/nomor_KTP_register"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:text="Masukan Nomor KTP"
+        android:textColor="#80000000" />
+
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_submit"
+        android:text="Daftar"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun?"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/login_pilih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" masuk"
+                android:textColor="@color/yellow_dark"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

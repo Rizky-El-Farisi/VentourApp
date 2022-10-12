@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/go_back"
+            android:background="@color/white"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lengkapi Document"
+            android:layout_marginLeft="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/black" />
+
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Documentasi dapat berupa .png dan .pdf"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="KTP"
+            android:textColor="@color/black" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upload_KTP"
+            android:layout_width="346dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custom_button_enter"
+            android:text="Upload KTP"
+            android:textColor="@color/grey_dark"
+            android:textSize="13dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Sertifikat Vaksin"
+            android:textColor="@color/black" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upload_vaksin"
+            android:layout_width="346dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custom_button_enter"
+            android:text="Upload Sertifikat Vaksin"
+            android:textColor="@color/grey_dark"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Buku Kuning"
+            android:textColor="@color/black" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upload_buku_kuning"
+            android:layout_width="346dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custom_button_enter"
+            android:text="Upload Buku Kuning"
+            android:textColor="@color/grey_dark"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Kartu Keluarga"
+            android:textColor="@color/black"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upload_kartu_keluarga"
+            android:layout_width="346dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custom_button_enter"
+            android:text="Upload Kartu Keluarga"
+            android:textColor="@color/grey_dark"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Foto"
+            android:textColor="@color/black"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upload_foto"
+            android:layout_width="346dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custom_button_enter"
+            android:text="Upload Foto"
+            android:textColor="@color/grey_dark"
+            android:textSize="13dp"/>
+
+
+
+
+        <Button
+            android:id="@+id/upload_document"
+            android:layout_width="345dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_button_submit"
+            android:text="Upload Document"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

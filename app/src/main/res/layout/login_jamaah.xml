@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.Login">
+
+    <ImageButton
+        android:id="@+id/go_back"
+        android:src="@drawable/ic_arrow_back"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="261dp"
+        android:layout_height="323dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_ventour"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Nomor KTP"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/KTP_login"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="  contoh: 12345678"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/login_jamaah_button"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_submit"
+        android:text="Masuk"
+        android:textColor="@color/black"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun?"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="566dp" />
+
+        <TextView
+            android:id="@+id/daftar_akun_jamaah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Silahkan mendaftar"
+            android:textColor="@color/yellow_dark"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="566dp" />
+    </LinearLayout>
+
+</LinearLayout>

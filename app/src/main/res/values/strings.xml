@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Ventour</string>
+    <string name="version">V 1.0</string>
+    <string name="haji">Haji</string>
+    <string name="umroh">Umroh</string>
+    <string name="tour">Tour</string>
+    <string name="lunas">Terbayar</string>
+    <string name="belum_lunas">Belum Lunas</string>
+
+    <!--    list penerbangan-->
+    <string name="garuda">Garuda Indonesia</string>
+    <string name="turkish">Turkish Airlines</string>
+    <string name="qatar">Qatar Airways</string>
+    <string name="emirates">Emirates</string>
+    <string name="etihad">Etihad Airways</string>
+    <string name="lion">Lion Air</string>
+    <string name="scoot">Scoot</string>
+    <string name="saudi">Saudi Airlines</string>
+    <string name="oman">Oman Air</string>
+    <string name="srilanka">Srilanka Airlines</string>
+
+
+    <!--    list hotel-->
+    <string name="pullman_zam2">Pulman Zamzam Makkah</string>
+    <string name="le_meridien">Le Méridien Towers Makkah</string>
+    <string name="al_hayya">Al Hayya Plus</string>
+    <string name="rua_al_hijrah">Rua Al Hijrah Hotel</string>
+    <string name="concorde">Concorde Hotel Dar Al Khair</string>
+    <string name="fajr_badea">AlFajer AlBadya Hotel</string>
+    <string name="azka_al_safa">Azka Al Safa Hotel</string>
+
+
+    <!--    list program-->
+    <string name="hari9">program 9 hari</string>
+    <string name="hari10">program 10 hari</string>
+    <string name="hari11">program 11 hari</string>
+    <string name="hari12">program 12 hari</string>
+    <string name="itikaf">program 18 - 21 hari</string>
+
+
+    <!--    list metode pembayaran-->
+    <string name="bca">BCA</string>
+    <string name="bsi">BSI</string>
+    <string name="mandiri">Mandiri</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>

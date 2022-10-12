@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Paket yang Di Ikuti"/>
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_order"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:elevation="10dp"
+            android:background="@drawable/custom_pop_up"
+            android:layout_gravity="center|top"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/pesanan1"
+                    layout="@layout/view_order"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.coordinatorlayout.widget.CoordinatorLayout
+                        android:layout_width="350dp"
+                        android:layout_height="230dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/custom_pop_up"
+                        android:elevation="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Pesanan"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="2 juni 2022"/>
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="190dp"
+                            android:text="Belum Lunas"
+                            android:gravity="center"
+                            android:textColor="@color/red"
+                            android:background="@drawable/custom_pop_up"
+                            android:elevation="5dp"/>
+
+                        <View
+                            android:layout_width="280dp"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center|top"
+                            android:layout_marginTop="70dp"
+                            android:background="@color/grey" />
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/logo_ventour"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginLeft="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="90dp"
+                            android:layout_marginLeft="110dp"
+                            android:textSize="16dp"
+                            android:text="Umroh 9 Agustus"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="110dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/cutsom_tag"
+                            android:text="@string/haji"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="170dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Total"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="190dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Rp. 28.000.000"
+                            android:textColor="@color/black"/>
+
+
+                        <View
+                            android:layout_width="8dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_marginLeft="150dp"
+                            android:background="@drawable/cutsom_tag" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="170dp"
+                            android:layout_marginLeft="180dp"
+                            android:text="Tanggal Keberangkatan"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="190dp"
+                            android:layout_marginLeft="180dp"
+                            android:text="18 Oktober 2022"
+                            android:textColor="@color/black"/>
+
+                    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/white" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <include
+        layout="@layout/bottom_navigation"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

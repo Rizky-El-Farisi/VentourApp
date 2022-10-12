@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/custom_navbar_layanan">
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="RP. 21.000.000"/>
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/yellow_dark"
+            android:background="@drawable/custom_pop_up" />
+
+        <TextView
+            android:id="@+id/sisah_kursi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="35dp"
+            android:text="tersisah: 5 kursi"
+            android:textColor="@color/red"
+            android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/pesan"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@drawable/cutsom_tag"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="300dp"
+            android:text="Pesan"/>
+
+</RelativeLayout>

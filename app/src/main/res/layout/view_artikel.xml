@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="20dp"
+    app:cardElevation="10dp"
+    android:layout_margin="15dp"
+    app:cardPreventCornerOverlap="false">
+
+        <ImageView
+            android:id="@+id/smpl_artikel"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/logo_ventour"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="110dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/judul_artikel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 keistimewaan berumroh"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/isi_artikel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ibadah umroh merupakan satu kegiatan ibadah dalam agama islam...."/>
+
+        </LinearLayout>
+</androidx.cardview.widget.CardView>

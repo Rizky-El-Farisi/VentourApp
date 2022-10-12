@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/card_penerbangan"
+    android:background="@drawable/custom_button_enter"
+    android:layout_gravity="center"
+    android:layout_width="350dp"
+    android:layout_height="150dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_plane"/>
+
+        <TextView
+            android:id="@+id/code_pesawat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="GA 982"/>
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/custom_button_enter"/>
+
+        <TextView
+            android:id="@+id/nama_maskapai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Garuda Indonesia"/>
+
+        <TextView
+            android:id="@+id/waktu_kedatangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="right"
+            android:text="17.50"/>
+
+        <TextView
+            android:id="@+id/waktu_keberangkatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:layout_gravity="right"
+            android:textColor="@color/black"
+            android:text="05.50"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="120dp"
+            android:textColor="@color/black"
+            android:text="Keberangkatan"/>
+
+        <TextView
+            android:id="@+id/tgl_kedatangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="120dp"
+            android:text="12 juni 2022"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="120dp"
+            android:textColor="@color/black"
+            android:text="Kedatangan"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="120dp"
+            android:text="12 juni 2022"/>
+
+
+    </androidx.cardview.widget.CardView>
